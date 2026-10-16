@@ -1,0 +1,11 @@
+node_modules
+.secrets/
+.env
+*.key
+artifacts
+cache
+typechain-types
+coverage
+frontend/node_modules
+frontend/dist
+deployments/localhost.json

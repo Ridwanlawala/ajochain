@@ -1,0 +1,20 @@
+{
+  "name": "ajochain",
+  "version": "0.1.0",
+  "description": "On-chain rotating savings circles (ajo/esusu) on Portaldot V3 EVM",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "check:portaldot": "hardhat run scripts/check.js --network portaldot",
+    "deploy:portaldot": "hardhat run scripts/deploy.js --network portaldot",
+    "demo:portaldot": "hardhat run scripts/demo.js --network portaldot"
+  },
+  "keywords": [],
+  "author": "Lawal Ridwan",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.6.1",
+    "hardhat": "^2.29.1"
+  }
+}
