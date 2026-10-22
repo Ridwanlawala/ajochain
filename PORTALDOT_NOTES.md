@@ -46,3 +46,10 @@ for weight and storage-deposit limits.
 https://dorahacks.io/hackathon/portaldot-hacker-house-2026/detail
 - Check-in Oct 24 12:00 UTC: public repo, README, architecture diagram, testnet contract address + tx hash, demo link or ≤3 min video.
 - Final deadline / code freeze Nov 6 04:00 UTC; ≥3 valid commits during Oct 14–Nov 6; no one-shot dump in the last 24 h; disclose dependencies.
+
+## Update 2026-10-22: testnet back on new hostnames
+Per the guide's 2026-10-16 update, endpoints moved to `portaldot.dev`:
+- EVM RPC `https://test-evm-rpc-v3.portaldot.dev` (verified 2026-10-22: eth_chainId 0x190f1ca9 = 420420777, producing blocks)
+- Substrate `wss://test-node-v3.portaldot.dev`, node console https://node-console.portaldot.dev
+- Tokens: first batch goes to the native POT address (starts with 5) given at registration; otherwise open a Discord support ticket with a registration screenshot + address.
+- Deployer 0xfBD8…933e balance 0 as of 2026-10-22.

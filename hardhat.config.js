@@ -18,7 +18,7 @@ module.exports = {
   networks: {
     // PortaldotV3 Testnet (pallet-revive Ethereum RPC). Source: official PortaldotV3 Testnet guide.
     portaldot: {
-      url: process.env.PORTALDOT_RPC || "https://testnetv3-eth-rpc.feso-apps.xyz",
+      url: process.env.PORTALDOT_RPC || "https://test-evm-rpc-v3.portaldot.dev",
       chainId: 420420777,
       accounts: deployerKey(),
       timeout: 120000,

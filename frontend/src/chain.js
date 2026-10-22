@@ -3,9 +3,9 @@ export const PORTALDOT = {
   chainId: 420420777,
   chainIdHex: "0x190f2309",
   chainName: "PortaldotV3 Testnet",
-  rpcUrl: "https://testnetv3-eth-rpc.feso-apps.xyz",
+  rpcUrl: "https://test-evm-rpc-v3.portaldot.dev",
   nativeCurrency: { name: "Portaldot Test Token", symbol: "tPOTv3", decimals: 18 },
-  nodeConsole: "https://node-console.feso-apps.xyz/",
+  nodeConsole: "https://node-console.portaldot.dev/",
 };
 
 export async function switchToPortaldot(ethereum) {

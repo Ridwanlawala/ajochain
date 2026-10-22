@@ -87,7 +87,7 @@ getCircle(id) · getMembers(id) · currentRecipient(id) · roundDeadline(id) · 
 
 ## Portaldot testnet deployment
 
-Network (official PortaldotV3 Testnet guide): RPC `https://testnetv3-eth-rpc.feso-apps.xyz`, chain id `420420777`, gas token `tPOTv3`. There is no EVM block explorer yet; the Substrate node console is `https://node-console.feso-apps.xyz/`.
+Network (official PortaldotV3 Testnet guide): RPC `https://test-evm-rpc-v3.portaldot.dev`, chain id `420420777`, gas token `tPOTv3`. There is no EVM block explorer yet; the Substrate node console is `https://node-console.portaldot.dev/`.
 
 | Item | Value |
 |---|---|
@@ -97,7 +97,7 @@ Network (official PortaldotV3 Testnet guide): RPC `https://testnetv3-eth-rpc.fes
 | Demo interaction tx hashes | _pending_ (`npm run demo:portaldot` writes them to `deployments/portaldot.json`) |
 | Deployer (H160) | `0xfBD8662143AB5De7202799Cb230d591ceE3d933e` |
 
-**Status 2026-10-16:** the V3 testnet hostnames (`testnetv3-eth-rpc`, `testnetv3-node`, `node-console` on `feso-apps.xyz`) returned NXDOMAIN, and there is no public tPOTv3 faucet (test tokens are sent to the deployer's mapped SS58 address via the node console). The full flow was rehearsed on a local Hardhat node with the same scripts; the table above will be filled in as soon as the testnet is reachable and funded. Details in [`PORTALDOT_NOTES.md`](PORTALDOT_NOTES.md).
+**Status 2026-10-22:** the testnet moved to `portaldot.dev` on 2026-10-16 (the old `feso-apps.xyz` hostnames are retired) and is live again at chain id `420420777`. Test tokens are distributed to hackathon participants' registered native POT addresses; once tPOTv3 reaches the deployer's mapped SS58 address, the scripts deploy as-is and the table above gets the contract addresses and tx hashes. The full flow was rehearsed on a local Hardhat node. Details in [`PORTALDOT_NOTES.md`](PORTALDOT_NOTES.md).
 
 ## Run it
 
